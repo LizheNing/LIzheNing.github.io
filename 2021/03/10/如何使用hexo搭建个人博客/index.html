@@ -246,7 +246,47 @@
 <li>如果没有连续输出的经历，建议先到博客网站适用一段时间，养成写作习惯后，在来折腾自己的博客。</li>
 <li><a target="_blank" rel="noopener" href="https://seveninnovationbasedoc.readthedocs.io/zh_CN/latest/sharePoint/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html">别忘了博客的初心是记录</a>。</li>
 </ol>
-<h2 id="二、为什么要选择hexo-github-page搭建自己的博客（常见的博客框架对比）"><a href="#二、为什么要选择hexo-github-page搭建自己的博客（常见的博客框架对比）" class="headerlink" title="二、为什么要选择hexo+github page搭建自己的博客（常见的博客框架对比）"></a>二、为什么要选择hexo+github page搭建自己的博客（常见的博客框架对比）</h2><p>本段内容均来自网络，主要参考了<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45784655/article/details/104780438">计算机瞎鼓捣能手</a>和<a target="_blank" rel="noopener" href="https://lexcao.github.io/zh/posts/jekyll-hugo-hexo">曹历鑫</a>)文章。常见的博客框架见下表：<br>| 框架 | 优点 | 缺点 | 主页 |<br>   – |  – | – | –<br>| Hexo | 1.支持Markdowm; 2.开源且免费；3. 静态部署，操作简单；4.中文社区；5.中文支持；6.在 GitHub Pages 部署简单。 |  | <a target="_blank" rel="noopener" href="https://hexo.io/">https://hexo.io/</a> |<br>| jekyll | 1. 支持Markdowm;2. 开源且免费；3. 静态部署，操作简单；4. 社区成熟；5. 强大的 GitHub Pages 支持。 | 当网站内容不断增加后，构建速度会明显变慢。 | <a target="_blank" rel="noopener" href="https://jekyllrb.com/">https://jekyllrb.com/</a> |<br>| hugo | 1. 免费开源；2.速度非常快，对构建速度做了优化；3.内置支持很多功能（动态 API 请求的内容、无限制内容类型、shortcakes， 一个灵活的 Markdown 替代、别名重定向）：4. 预制的 Go 模版和模式；5. 无需依赖（不用安装 Go，因为它是编译好的二进制）； | 1. 主题使用 Go 模版，所以需要熟悉 Go；2.没有内置默认主题；3. 缺少扩展性和插件。  | <a target="_blank" rel="noopener" href="https://www.gohugo.org/">https://www.gohugo.org/</a> |<br>| <a target="_blank" rel="noopener" href="https://bestzuo.cn/posts/newsoloblog.html">solo</a> | 1. 可以在动态博客和静态博客之间进行切换；2.具有一定活跃度的社区；3.图床免费；4.自带备份功能；5.可以导入 Hexo 博客的 Markdown 文章。  |  1.Docker 快速部署难以自定义博客内的样式因此只能采用 Java 源码的方式进行部署；2.博客刷新使用了 Pjax，很多时候自定义的js很容易失效了；3.评论的时候只能登录社区账号。  | <a target="_blank" rel="noopener" href="https://solo.b3log.org/">https://solo.b3log.org/</a> |<br>| <a target="_blank" rel="noopener" href="https://www.php.cn/cms/wordpress/431822.html">wordpress</a> | 1.功能强大、扩展性强，这主要得益于其插件众多;2.对seo搜索引擎友好，收录也快，排名靠前;3.适合DIY;4.主题很多;5.备份和网站转移比较方便;6.有强大的社区支持。 | 1.只提供一个框架内容需要自己DIY；2.不能安装太多插件，否则会拖累网站速度和降低用户体验；3.服务器空间选择自由较小；4.不能适应大数据。5.只能“伪静态化”。  | <a target="_blank" rel="noopener" href="https://wordpress.org/">https://wordpress.org/</a> |</p>
+<h2 id="二、为什么要选择hexo-github-page搭建自己的博客（常见的博客框架对比）"><a href="#二、为什么要选择hexo-github-page搭建自己的博客（常见的博客框架对比）" class="headerlink" title="二、为什么要选择hexo+github page搭建自己的博客（常见的博客框架对比）"></a>二、为什么要选择hexo+github page搭建自己的博客（常见的博客框架对比）</h2><p>本段内容均来自网络，主要参考了<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45784655/article/details/104780438">计算机瞎鼓捣能手</a>和<a target="_blank" rel="noopener" href="https://lexcao.github.io/zh/posts/jekyll-hugo-hexo">曹历鑫</a>)文章。常见的博客框架见下表：</p>
+<table>
+<thead>
+<tr>
+<th align="center">框架</th>
+<th align="left">优点</th>
+<th align="left">缺点</th>
+<th align="left">主页</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Hexo</td>
+<td align="left">1.支持Markdowm; 2.开源且免费；3. 静态部署，操作简单；4.中文社区；5.中文支持；6.在 GitHub Pages 部署简单。</td>
+<td align="left"></td>
+<td align="left"><a target="_blank" rel="noopener" href="https://hexo.io/">https://hexo.io/</a></td>
+</tr>
+<tr>
+<td align="center">jekyll</td>
+<td align="left">1. 支持Markdowm;2. 开源且免费；3. 静态部署，操作简单；4. 社区成熟；5. 强大的 GitHub Pages 支持。</td>
+<td align="left">当网站内容不断增加后，构建速度会明显变慢。</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://jekyllrb.com/">https://jekyllrb.com/</a></td>
+</tr>
+<tr>
+<td align="center">hugo</td>
+<td align="left">1. 免费开源；2.速度非常快，对构建速度做了优化；3.内置支持很多功能（动态 API 请求的内容、无限制内容类型、shortcakes， 一个灵活的 Markdown 替代、别名重定向）：4. 预制的 Go 模版和模式；5. 无需依赖（不用安装 Go，因为它是编译好的二进制）；</td>
+<td align="left">1. 主题使用 Go 模版，所以需要熟悉 Go；2.没有内置默认主题；3. 缺少扩展性和插件。</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.gohugo.org/">https://www.gohugo.org/</a></td>
+</tr>
+<tr>
+<td align="center"><a target="_blank" rel="noopener" href="https://bestzuo.cn/posts/newsoloblog.html">solo</a></td>
+<td align="left">1. 可以在动态博客和静态博客之间进行切换；2.具有一定活跃度的社区；3.图床免费；4.自带备份功能；5.可以导入 Hexo 博客的 Markdown 文章。</td>
+<td align="left">1.Docker 快速部署难以自定义博客内的样式因此只能采用 Java 源码的方式进行部署；2.博客刷新使用了 Pjax，很多时候自定义的js很容易失效了；3.评论的时候只能登录社区账号。</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://solo.b3log.org/">https://solo.b3log.org/</a></td>
+</tr>
+<tr>
+<td align="center"><a target="_blank" rel="noopener" href="https://www.php.cn/cms/wordpress/431822.html">wordpress</a></td>
+<td align="left">1.功能强大、扩展性强，这主要得益于其插件众多;2.对seo搜索引擎友好，收录也快，排名靠前;3.适合DIY;4.主题很多;5.备份和网站转移比较方便;6.有强大的社区支持。</td>
+<td align="left">1.只提供一个框架内容需要自己DIY；2.不能安装太多插件，否则会拖累网站速度和降低用户体验；3.服务器空间选择自由较小；4.不能适应大数据。5.只能“伪静态化”。</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://wordpress.org/">https://wordpress.org/</a></td>
+</tr>
+</tbody></table>
 <p>我本身不从事计算机与软件相关工作，因此很多问题还需要依靠社区来解决。作为第一个自建博客，希望选择一个上手简单一点的框架，综上，我选择使用hexo。搭建博客之初，并不能确定这个博客会持续更新多久，因此不想有太多的投入，所以选择在托管再Github Page。等到内容足够多或者想玩其他的内容的时候再购买服务器和网址。</p>
 <h2 id="三、本文涉及到的基础知识"><a href="#三、本文涉及到的基础知识" class="headerlink" title="三、本文涉及到的基础知识"></a>三、本文涉及到的基础知识</h2><ol>
 <li>下载并安装node.js;</li>
